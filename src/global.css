@@ -1,0 +1,54 @@
+body {
+    color: #fff;
+    background: #17181c;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 10px 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .signature {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    color: #777;
+}
+footer .year {
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .copyright {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+footer p {
+    margin: 0px;
+}
+footer .copyright a {
+    outline: none;
+    text-decoration: none;
+    color: #666;
+}
+footer .copyright a:hover {
+    color: #999;
+}
+footer .copyright:before {
+    content: '©';
+}
